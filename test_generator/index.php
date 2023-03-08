@@ -4,6 +4,6 @@
 require "vendor/autoload.php";
 
 
-$cls = new generetor\generating();
+//$cls = new generetor\generating();
 
-$cls->generator();
+//$cls->generator();
