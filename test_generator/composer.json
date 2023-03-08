@@ -1,0 +1,15 @@
+{
+    "name": "moham/test_generator",
+    "description": "Test",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "moham/generetor": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../generetor"
+        }
+    ]
+}

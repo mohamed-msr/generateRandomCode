@@ -1,0 +1,23 @@
+{
+    "name": "moham/composer",
+    "description": "das",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "app/function.php"
+        ],
+        "classmap":[
+            "app/classes"
+        ]
+    },
+    "authors": [
+        {
+            "name": "me"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}

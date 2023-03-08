@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b8dc3850d946be401e912d77187a0dc3",
+    "packages": [
+        {
+            "name": "moham/generetor",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../generetor",
+                "reference": "8d1d5c50ffe8eef607267dafb5d635ab691c3572"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "generetor\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "me"
+                }
+            ],
+            "description": "test",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "moham/generetor": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
